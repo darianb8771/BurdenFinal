@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,400i,700");
+
+
+body {
+    padding-top: 50px;
+    background-color: #A3E4D7;
+}
+.starter-template {
+    padding: 40px 15px;
+    text-align: center;
+}
+.resources.first-row{
+    width: 25%;
+    height:100px;
+    background-color: #BB8FCE;
+    float: left;
+    margin: 10px;
+}.resources.second-row{
+    width: 10%;
+    height:50px;
+    background-color: lime;
+    float: center;
+    margin: 10px;
+}/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+/* Include the padding and border in an element's total width and height */
+* {
+  width: relative;
+  length: relative;
+  box-sizing: border-box;
+}
+
+/* Remove margins and padding from the list */
+ul {
+  margin: auto;
+  padding: 0;
+  width: 600px;
+}
+
+/* Style the list items */
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  background: #343a40;
+  font-size: 18px;
+  transition: 0.2s;
+  list-style-type:none;
+
+  /* make the list items unselectable */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Set all odd list items to a different color (zebra-stripes) */
+ul li:nth-child(odd) {
+  background: ;
+}
+
+/* Darker background-color on hover */
+ul li:hover {
+  background: #6b6e70;
+}
+
+/* When clicked on, add a background color and strike out text */
+ul li.checked {
+  background: #474b4f;
+  color: #61892f;
+  text-decoration: line-through;
+}
+
+/* Add a "checked" mark when clicked on */
+ul li.checked::before {
+  content: "";
+  position: absolute;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+}
+
+/* Style the close button */
+.close {
+  position: absolute;
+  right: 0;
+  left: right;
+  top: 0;
+  padding: 12px 12px 15px 5px;
+}
+
+/* .close:hover {
+  background-color: #000000FF;
+  color: white;
+  padding: 5px 5px 5px 5px;
+} */
+#myDIV {
+  margin: auto;
+  width: 600px;
+}
+
+/* Style the header */
+.header {
+  background-color: #86c232;
+  padding: 30px 40px;
+  color: black;
+  text-align: center;
+}
+
+/* Clear floats after the header */
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the input */
+input {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  width: 75%;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+}
+
+/* Style the "Add" button */
+.addBtn {
+  padding: 10px;
+  width: 25%;
+  background: #6b6e70;
+  color: black;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+}
+
+.addBtn:hover {
+  background-color: ;
+}
+
+#footer {
+  position: absolute;
+  left: 7px;
+  bottom: 0;
+}
